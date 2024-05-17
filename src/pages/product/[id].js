@@ -7,7 +7,7 @@ export default function ProductDetail() {
                 title={data.tittle}
                 description={data.description}
                 image={data.image}
-                url={`http://localhost:3000/product/${data.id}`}
+                url={'http://localhost:3000'}
             />
 
             <h1>{data.title}</h1>
