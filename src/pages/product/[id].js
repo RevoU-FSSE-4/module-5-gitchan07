@@ -10,6 +10,9 @@ export default function ProductDetail() {
                 url={'http://localhost:3000'}
             />
 
+            <div className="grid grid-cols-2">
+                <div><img src={data.image} alt={data.title} width={200} /></div>
+            </div>
             <h1>{data.title}</h1>
             <div>{data.category}</div>
             <div>{data.price}</div>
